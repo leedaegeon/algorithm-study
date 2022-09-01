@@ -107,6 +107,61 @@ recursive algorithm
     </ol>
 
   </ul> 
+<h1>
+ Breadth-first Search(Graph1)
+    </h1>
+    <b>
+•	카테고리
+    </b>
+  <ul>
+o	Graph search->Uninformed Serch Strategies->Breadth-first Search
+    <br>
+Uninformed는 init부터 goal까지 path  cost정보가 없는 상태
+   </ul>
+ <b>
+•	What is problem solving?
+ </b>
+<br>
+    <ul>
+   o State space에서 최초상태에서 목적상태까지의 sequence of operator(path)를 search하는 것(solution은 path or goal state)
+    </ul>
+<b>
+•	목적
+</b>
+ <br>
+    <ul>
+     o Problem solving의 최종 목적은 경로 비용의 최소화
+    </ul>
+<br>
+<b>
+•	Formalize(informal problem description->formal…)
+</b>
+ <br>
+    
+o	정의해야 하는 것들
+    <ol>
+      <li>	Initial state</li>
+      <li>	Operators</li>
+      <li>	Goal test</li>
+      <li>	Path cost function</li>
+        >	input search algorithm
+    </ol>
+Initial state, operators정의는 state space를 구성한다.
+    <br>
+    
+  <b>
+  예시(8-puzzle)
+    </b>
+    <ol>
+      <li>	States</li>
+    	아홉개로 나뉘어진 네모칸에 있는 8개의 타일 위치
+      <li>	Operators(successor function)</li>
+    	빈칸을 상하좌우로 움직이기
+      <li>	Goal test</li>
+     	State matches the goal configuration
+      <li>	Path cost</li>
+    	각 스텝당 1
 
- 
+    
+    
 </body>
